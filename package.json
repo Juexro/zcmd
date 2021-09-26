@@ -1,0 +1,36 @@
+{
+  "name": "@juexro/zcmd",
+  "version": "1.0.1",
+  "description": "template management commands that can be used in daily development",
+  "main": "./bin/index.js",
+  "files": [
+    "bin",
+    "templates",
+    "utils"
+  ],
+  "bin": {
+    "zcmd": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "command",
+    "generate",
+    "tool",
+    "react"
+  ],
+  "author": "Juexro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juexro/zcmd"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.2.0",
+    "fs-extra": "^10.0.0",
+    "ignore": "^5.1.8",
+    "ora": "^5.4.1"
+  }
+}
