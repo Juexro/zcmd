@@ -1,6 +1,6 @@
 {
   "name": "@juexro/zcmd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "template management commands that can be used in daily development",
   "main": "./bin/index.js",
   "files": [
